@@ -28,7 +28,7 @@ class ComponentServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'Kilrizzy\Component\Contracts\ComponentContract',
-            'Component\Component'
+            'Kilrizzy\Component\Component'
         );
     }
 
